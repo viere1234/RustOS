@@ -1,6 +1,3 @@
-[build]
-target = "x86_64-rustos.json"
-
 [package]
 name = "rustos"
 version = "0.1.0"
@@ -11,3 +8,6 @@ panic = "abort"
 
 [profile.release]
 panic = "abort"
+
+[dependencies]
+bootloader = "0.9.23"
